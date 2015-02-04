@@ -1,0 +1,45 @@
+.pipeline-chart {
+	border-bottom:0px!important;
+	text-align: center!important;
+}
+
+.demo-ball {
+	position: relative;
+	margin: 15px!important;
+	width: 40px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 40px;
+	opacity: 0.65;
+}
+
+.demo-ball2 {
+	position: relative;
+	margin: 15px!important;
+	width: 40px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 40px;
+	opacity: 0.65;
+
+}
+.demo-ball-animate {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: slide;
+	-webkit-animation-iteration-count: 4;
+	animation-duration: 2s;
+	animation-name: slide;
+	animation-iteration-count: 4;
+}
+
+@-webkit-keyframes slide {
+	0% {transform:  translateX(0px);}
+	50% {transform:  translateX(1000px);}
+	100% {transform:  translateX(px);}
+}
+
+@keyframes slide {
+	0% {transform:  translateX(0px);}
+	50% {transform:  translateX(1000px);}
+	100% {transform:  translateX(px);}
+}
